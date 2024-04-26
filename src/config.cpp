@@ -1061,7 +1061,7 @@ namespace config {
     bool_f(vars, "key_rightalt_to_key_win", map_rightalt_to_win);
 
     if (map_rightalt_to_win) {
-      input.keybindings.emplace(0xA5, 0x5B);
+      input.keybindings.emplace(0xA5, 0x1B);
     }
 
     to = std::numeric_limits<int>::min();
